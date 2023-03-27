@@ -12,18 +12,21 @@
 
 `conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia`
 
-## Install HuggingFace
+## Install HuggingFace libraries
+
+Do the following:
 
 `conda install -c huggingface transformers`
 
-## Install HuggingFace's datasets
-
 `conda install -c conda-forge datasets`
 
-## Install HuggingFace's evaluate
-
 `conda install pip`
+
 `pip install evaluate`
+
+Optional:
+
+`pip install accelerate`
 
 ## Add environment to JupyterHub
 
