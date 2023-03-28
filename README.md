@@ -20,20 +20,18 @@ Do the following:
 
 `conda install -c conda-forge datasets`
 
-`conda install pip`
-
-`pip install evaluate` (or `conda install -c anaconda evaluate` without the pip installation)
+`conda install pip` and `pip install evaluate` (or `conda install -c anaconda evaluate` without the pip installation)
 
 Optional:
 
 `pip install accelerate`
 
-Make sure to open python and try importing these libraries before going to the next steps. If you run into trouble when importing `evaluate` with this message: `ImportError: libssl.so.10: cannot open shared object file: No such file or directory`, then try `conda update tokenizers`.
+Make sure to open python and try importing these libraries before going to the next steps. If you run into trouble when importing `evaluate` with this message: `ImportError: libssl.so.10: cannot open shared object file: No such file or directory`, then try `conda install tokenizers --force-reinstall` (or `conda update tokenizers`).
 
 ## Add environment to JupyterHub
 
 `conda install ipykernel`
 
-`python -m ipykernel install --user --name finetune --display-name="Finetune"`
+`python -m ipykernel install --prefix=/work/pi_ahoumansadr_umass_edu/Memorization/envs/finetune --name finetune --display-name="Finetune"`
 
 If the above was done within JupyterHub, reload the page. If that doesn't work, restart your JupyterHub server.
