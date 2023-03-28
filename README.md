@@ -12,6 +12,10 @@
 
 `conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia`
 
+## Install scikit-learn
+
+`conda install -c anaconda scikit-learn`
+
 ## Install HuggingFace libraries
 
 Do the following:
