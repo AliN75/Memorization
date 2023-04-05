@@ -16,6 +16,10 @@
 
 `conda install -c anaconda scikit-learn`
 
+## Install nltk
+
+`conda install -c conda-forge nltk`
+
 ## Install HuggingFace libraries
 
 Do the following:
