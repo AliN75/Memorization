@@ -20,6 +20,10 @@
 
 `conda install -c conda-forge nltk`
 
+## Install sentence-transformers
+
+`conda install -c conda-forge sentence-transformers`
+
 ## Install HuggingFace libraries
 
 Do the following:
