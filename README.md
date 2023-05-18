@@ -1,5 +1,15 @@
 # Memorization
 
+## Introduction
+
+- Files that contain the word pre-processing are for generating the fine-tuning data
+- fine-tuning: For fine-tuning a model
+- generate_measurement_data: For using a model to generate text
+- generate_metrics: For calculating the memorization metrics using the generated text
+- analyze_metrics: For aggregating the metrics and analyzing the memorization effect
+- plot-scatter: For creating the scatterplots for memorization vs perplexity
+- agg_metrics_with_perplexity.csv: Our aggregated metrics results combined with perplexity
+
 ## Create environment with conda 
 
 `conda create --prefix /work/pi_ahoumansadr_umass_edu/Memorization/envs/finetune python=3.8`
